@@ -301,7 +301,7 @@ namespace League
 
             newRow[0] = li_league.Text;
             newRow[1] = li_year.Text;
-            newRow[2] = startTime.ToString("dddd. MMMM dd. yyyy");
+            newRow[2] = startTime.ToString("dd/MM/yyyy");
             newRow[3] = startTime.ToString("hh:mm tt");
             newRow[4] = li_round.Text; // TODO round name
             newRow[5] = Venue;
